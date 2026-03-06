@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>BOU BAZAR TOP UP</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+body{
+font-family: Arial;
+background:#111;
+color:white;
+text-align:center;
+margin:0;
+}
+
+h1{
+background:#00b894;
+padding:15px;
+}
+
+h2{
+margin-top:20px;
+}
+
+.package{
+background:#222;
+margin:10px;
+padding:15px;
+border-radius:10px;
+}
+
+button{
+background:#00ff88;
+border:none;
+padding:10px 20px;
+border-radius:8px;
+font-size:16px;
+cursor:pointer;
+}
+
+button:hover{
+background:#00cc66;
+}
+
+.payment{
+background:#333;
+margin:20px;
+padding:15px;
+border-radius:10px;
+}
+</style>
+
+<script>
+function selectPackage(name,price){
+
+document.getElementById("selected").innerHTML =
+"Selected: "+name+" | Price: "+price+" TK";
+
+}
+</script>
+
+</head>
+
+<body>
+
+<h1>BOU BAZAR TOP UP 💎</h1>
+
+<h2>Diamond Packages</h2>
+
+<div class="package">
+<h3>25 Diamond 💎</h3>
+<p>22 TK</p>
+<button onclick="selectPackage('25 Diamond','22')">Select</button>
+</div>
+
+<div class="package">
+<h3>115 Diamond 💎</h3>
+<p>80 TK</p>
+<button onclick="selectPackage('115 Diamond','80')">Select</button>
+</div>
+
+<div class="package">
+<h3>240 Diamond 💎</h3>
+<p>160 TK</p>
+<button onclick="selectPackage('240 Diamond','
